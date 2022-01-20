@@ -10,26 +10,26 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-            This project was coded by Reni Koulen, is
-            <a
-              href="https://github.com/renikoulen/dictionary-project"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              open-sourced on GitHub
-            </a>
-            {" and is "}
-            <a
-              href="https://relaxed-franklin-d45c08.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              hosted on Netlify.
-            </a>
+          This project was coded by Reni Koulen, is
+          <a
+            href="https://github.com/renikoulen/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            open-sourced on GitHub
+          </a>
+          {" and is "}
+          <a
+            href="https://relaxed-franklin-d45c08.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify.
+          </a>
         </footer>
       </div>
     </div>
