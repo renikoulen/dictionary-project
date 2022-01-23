@@ -2,7 +2,7 @@
   margin: 20px 0;
 }
 
-.Phonetic a {
+.Phonetic .audio {
   border: 1px solid #ddd;
   text-decoration: none;
   padding: 8px 15px;
